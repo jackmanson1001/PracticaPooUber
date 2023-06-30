@@ -6,7 +6,7 @@ function Car(license,driver){
 
 }
 
-// metodo para imprimir en consola
+// metodo para imprimir en consola - asi se hacia antes de EMAC SCROPT 6
 Car.prototype.printDataCar = function(){
     console.log(this.driver)
     console.log(this.driver.name)
