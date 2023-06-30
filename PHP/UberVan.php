@@ -6,7 +6,7 @@
         public $seatsMaterial;
 
         public function __construct($license,$driver,$typeCarAccepted,$seatsMaterial){
-            parent::__construct($license,$driver);
+            parent::__construct($license,$driver); // asi se declara la SUPER CLASE
             $this->typeCarAccepted = $typeCarAccepted;
             $this->seatsMaterial = $seatsMaterial;
         }
