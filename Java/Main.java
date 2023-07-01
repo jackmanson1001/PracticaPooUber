@@ -19,5 +19,11 @@ public class Main{
         auto.printData();
 
 
+        UberX miUberX = new UberX("JASS720",new Account("jackmanson", "H12349"), "kia", "Sportage");
+        miUberX.printData();
+
+        Card miCard = new Card("jack", "123456789", "123", "12/06/2025");
+        miCard.printValidationNomCard();
+
     }
 }
