@@ -1,4 +1,0 @@
-function Payment(){
-    this.id;
-    
-}
